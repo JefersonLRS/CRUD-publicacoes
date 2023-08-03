@@ -37,7 +37,7 @@ export const PostList = () => {
                     className="flex gap-5 items-center p-3 border-b border-gray-500 mx-10">
                     <div className="flex-1">
                         <div className="text-2xl font-bold mb-2">{item.title}</div>
-                        <div className="text-sm">{item.body}</div>
+                        <div className="text-sm break-all">{item.body}</div>
                     </div>
                     <div>
                         <button onClick={() => HandleEditButton(item.id)}

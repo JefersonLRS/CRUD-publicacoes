@@ -9,7 +9,7 @@ const Page = () => {
 
   return (
     <PostProvider>
-      <div className="container mx-auto">
+      <div className="container flex flex-col mx-auto">
         <Header/>
         <PostList/>
         <Footer/>

@@ -16,12 +16,12 @@ export const Header = () => {
             })
             setTitleInput('')
             setBodyInput('')
-        }
+        } else alert("Preencha todos os campos.")
     }
 
     return (
         <header>
-            <h1 className="text-5xl font-bold text-center my-3 text-blue-500">Fatter</h1>
+            <h1 className="text-5xl font-bold text-center my-7 text-blue-500">CRUD - PUBLICAÇÕES</h1>
             <div className="flex flex-col border border-dotted border-gray-400 p-3 m-4 gap-3 max-w-2xl mx-auto">
                 <input 
                     type="text"
@@ -32,7 +32,7 @@ export const Header = () => {
                 />
                 <textarea
                     placeholder="No que está pensando"
-                    className="h-24 border border-gray-300 p-2 text-black outline-none bg-white"
+                    className="h-24 border border-gray-300 p-2 text-black outline-none bg-white resize-none"
                     value={bodyInput}
                     onChange={e => setBodyInput(e.target.value)}
                 ></textarea>
