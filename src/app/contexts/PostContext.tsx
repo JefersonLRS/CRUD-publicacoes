@@ -2,7 +2,6 @@ import { Dispatch, ReactNode, createContext, useReducer, useEffect } from "react
 import { Post } from "@/types/Post"
 import { postReducer, PostActions } from "@/reducers/postReducer";
 
-const STORAGE_KEY = 'postContextContent'
 
 type PostContextType = {
     posts: Post[];
@@ -11,6 +10,7 @@ type PostContextType = {
 
 export const PostContext = createContext<PostContextType | null>(null)
 
+const STORAGE_KEY = 'postContextContent'
 
 export const PostProvider = ({children}: {children: ReactNode}) => {
     
