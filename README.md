@@ -1,5 +1,7 @@
 # Projeto CRUD de Publicações utilizando TypeScript, React e Next.js
 
+## [Clique aqui para acessar o App](https://crud-publicacoes-ivum-ez8efsmiy-httpjef.vercel.app)
+
 Este projeto é um exemplo de um aplicativo CRUD (Create, Read, Update, Delete) que lida com publicações, desenvolvido usando TypeScript, React e Next.js. Ele permite a criação, leitura, atualização e exclusão de registros de publicações em um sistema.
 
 ## Tecnologias Utilizadas 🚀
